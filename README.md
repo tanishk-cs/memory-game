@@ -1,2 +1,2 @@
 # memory-game
-an awesome memory game.
+not finished coding yet.
