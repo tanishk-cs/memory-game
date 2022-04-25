@@ -1,13 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Memory Game</title>
+    <style type="text/css">
+    div#memory_board{
+        background: #CCC;
+        border: #999 1px solid;
+        width: 800px;
+        height: 540px;
+        padding: 24px;
+        margin: 0px auto;
+    }
+    div#memory_board > div{
+        background: url(tile_bg.jpg) no-repeat;
+        border: #000 1px solid;
+        width: 71px;
+        height: 71px;
+        float: left;
+        margin: 10px;
+        padding: 20px;
+        font-size: 64px;
+        cursor: pointer;
+        text-align: center;
+    }
+    </style>
+    <script>
+        //-- creates a big box border -->
+    </script>
 </head>
 <body>
-    <h1>Memory Game</h1>
-    <h2>by Tanishk</h2>
+    <div id="memory_board"></div>
 </body>
 </html>
